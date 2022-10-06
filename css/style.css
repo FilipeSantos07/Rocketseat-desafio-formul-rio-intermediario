@@ -144,6 +144,7 @@ footer {
     display: flex;
     flex-direction: column;
     padding: 52px 71px;
+    animation: fromTop 1.2s;
 }
 footer input {
     font-weight: 400;
