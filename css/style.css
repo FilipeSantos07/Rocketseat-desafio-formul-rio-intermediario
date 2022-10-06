@@ -15,12 +15,15 @@ header h1 {
     color: #FFFFFF;
     margin-bottom: 18px;
     font-weight: 400;
+    animation: fromLeft 1.2s;
+    
 }
 header p {
     font-size: 20px;
     line-height: 30px;
     color: #FFFFFF;
     font-weight: 400;
+    animation: fromLeft 1.2s;
 }
 header h1, legend, footer input,.fieldset-wrapper2 h2 {
     font-family: 'Staatliches', cursive;
@@ -55,6 +58,7 @@ form {
     display: flex;
     flex-direction: column;
     gap: 30px;
+    animation: fromTop 1.2s;
 }
 fieldset {
     border: none;
@@ -155,6 +159,24 @@ footer input {
 }
 footer input:hover {
     background: #e92f54;
+}
+@keyframes fromLeft {
+    from {
+        opacity: 0;
+        transform: translateX(200px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+@keyframes fromTop {
+    from {
+        transform: translateY(-200px);
+    }
+    to {
+        transform: translateY(0);
+    }
 }
 @media (max-width:876px) {
     .two-cols {
