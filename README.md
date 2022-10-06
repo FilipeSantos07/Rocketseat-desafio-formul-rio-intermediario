@@ -6,7 +6,7 @@
 
 One more Rocketseat challenge has been done, this time an amazing form \o/
 
-Nesse desafio da Rocketseat, foi nos dado o layout desse formulário pelo figma, para que replicassemos o mais igual possível. E esse foi o resultado hehe, eu aproveitei e o deixei responsivo e como sempre dei uma pitada de animações xD, deu para treinar bastante codando. 
+Nesse desafio da Rocketseat, foi nos dado o layout desse formulário pelo figma, para que replicassemos o mais igual possível. E esse foi o resultado hehe. Como sempre dei uma pitada de animações, deu para treinar bastante codando.
 
 [🔗 Clique aqui para acessar](https://filipesantos07.github.io/Rocketseat-desafio-formulario-intermediario/)
 
