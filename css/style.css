@@ -185,16 +185,17 @@ footer input:hover {
     }
     .three-cols {
         flex-direction: column;
+        flex-wrap: wrap;
     }
     .three-cols div:nth-child(1) input {
-        min-width: 100%;
+        width: 100%;
         margin-right: 0;
     }
     .three-cols div:nth-child(2) input {
-        min-width: 100%;
+        width: 100%;
     }
     .three-cols div:nth-child(3) input{
-        min-width: 100%;
+        width: 100%;
         margin-bottom: 10px; 
     }    
     .input-wrapper {
